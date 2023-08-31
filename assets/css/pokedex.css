@@ -91,6 +91,7 @@
     opacity: .3;
     text-align: right;
     font-size: .625rem;
+    filter: brightness(1.1);
 }
 
 .pokemon .name {

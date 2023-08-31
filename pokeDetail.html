@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
 
@@ -20,27 +18,19 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <!-- <link rel="stylesheet" href="/assets/css/card.css"> -->
 </head>
-
 <body>
-    <section class="content">
-        <h1>Pokedex</h1>
-
-        <ol id="pokemonList" class="pokemons">
-            <!-- ..... Pokemons here ..... -->
-        </ol>
+   <div class="container">
+    <div id="card" class="pokemon"></div>
         
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
-        </div>
-    </section>
+   </div>
+    
+   <button type="button" id="button"><a href="index.html">Back</a></button>
 
-    <!-- Nosso JS -->
-    <script src="/assets/js/pokemon-model.js"></script>
-    <script src="/assets/js/poke-api.js"></script>
-    <script src="/assets/js/main.js"></script>
+   <!-- Nosso JS -->
+   <script src="/assets/js/pokemon-model.js"></script>
+   <script src="/assets/js/poke-api.js"></script>                                           
+   <script src="/assets/js/card.js"></script>
 </body>
-
 </html>
